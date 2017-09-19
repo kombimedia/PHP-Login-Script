@@ -1,0 +1,97 @@
+body {
+  color: #565656;
+  font-family: 'Dosis', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 900px;
+}
+.wrapper {
+  margin-top: 100px;
+}
+.form-box {
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 0 7px #a5a5a5;
+}
+form {
+  text-align: left;
+  width: 100%;
+}
+.form-heading{
+  text-align: center;
+}
+.button {
+  display: block;
+  padding: 15px 0;
+  margin: auto;
+  width: 50%;
+  background-color: #42bcf4;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 1px 1px 5px #a5a5a5;
+}
+.button:hover {
+  opacity: .8;
+}
+.button-center {
+  text-align: center;
+}
+.btn-submit {
+  padding: 15px;
+  width: 100%;
+  background-color: #42bcf4;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 1px 1px 5px #a5a5a5;
+}
+.btn-submit:hover {
+  opacity: .8;
+}
+form input {
+  padding: 10px 10px;
+  margin: 7px 0;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #707070;
+}
+form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+  margin-bottom: 9px;
+}
+a {
+  text-decoration: none;
+}
+a.form-link {
+  color: #42bcf4;
+  font-style: italic;
+}
+a.form-link:hover {
+  text-decoration: underline;
+}
+span.error {
+  font-size: 13px;
+  color: red;
+}
+span.db-error {
+  color: #565656;
+}
+.center {
+  text-align: center;
+}
