@@ -1,10 +1,10 @@
 <?php
 // define email variables
-$fromEmail = "cymessenger@gmail.com";
+$fromEmail = "email@domain.com";
 $fromName = "PHP Form Exercise";
-$adminEmail = "cy@kombimedia.nz";
-$adminFirstName = "Cy";
-$adminSurName = "Messenger";
+$adminEmail = "admin@domain.com";
+$adminFirstName = "Name";
+$adminSurName = "Surname";
 $userEmail = ($_POST['email']);
 $userFirstName = ($_POST['name']);
 $userSurName = ($_POST['sName']);
@@ -20,4 +20,3 @@ mail("", $subject, $message, $headers);
 // simple email for testing
 //mail($_POST['email'], 'Registration was successful', 'All sorted, you can login now ' . $_POST["name"] . "!");
 //mail($_POST['adminEmail'], 'A new user has registered', 'New users name is ' . $_POST["name"] . "!");
-

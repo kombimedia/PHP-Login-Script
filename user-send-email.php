@@ -1,6 +1,6 @@
 <?php
 // define email variables
-$fromEmail = "cymessenger@gmail.com";
+$fromEmail = "email@domain.com";
 $fromName = "PHP Form Exercise";
 $email = ($_POST['email']);
 $firstName = ($_POST['name']);
